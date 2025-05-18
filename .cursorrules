@@ -1,0 +1,122 @@
+# GenetiSched Project Rules
+
+## Code Patterns
+
+### Frontend
+1. Vue Components
+   - Use composition API
+   - Keep components focused
+   - Use props for data flow
+   - Emit events for changes
+
+2. Styling
+   - Use TailwindCSS classes
+   - Follow mobile-first approach
+   - Maintain consistent spacing
+   - Use semantic colors
+
+3. Data Management
+   - Use reactive refs
+   - Implement computed properties
+   - Handle loading states
+   - Manage errors properly
+
+### Backend
+1. API Design
+   - Use RESTful endpoints
+   - Implement proper validation
+   - Handle errors consistently
+   - Document with OpenAPI
+
+2. Data Models
+   - Use Pydantic models
+   - Implement validation
+   - Handle type conversion
+   - Document fields
+
+3. Scheduling Logic
+   - Check availability first
+   - Handle conflicts properly
+   - Optimize assignments
+   - Validate results
+
+## Project Preferences
+
+### Code Style
+1. Python
+   - Follow PEP 8
+   - Use type hints
+   - Document functions
+   - Handle exceptions
+
+2. JavaScript/Vue
+   - Use ES6+ features
+   - Follow Vue style guide
+   - Use async/await
+   - Handle promises
+
+### File Organization
+1. Frontend
+   - Group by feature
+   - Separate components
+   - Organize assets
+   - Maintain structure
+
+2. Backend
+   - Separate concerns
+   - Group by feature
+   - Maintain models
+   - Organize routes
+
+### Development Workflow
+1. Code Changes
+   - Test locally
+   - Validate changes
+   - Update documentation
+   - Commit properly
+
+2. Documentation
+   - Update README
+   - Document APIs
+   - Maintain comments
+   - Update memory bank
+
+## Critical Paths
+
+### Schedule Generation
+1. Check senior availability
+2. Verify room assignments
+3. Handle intern pairing
+4. Resolve conflicts
+
+### Data Flow
+1. Validate input
+2. Process data
+3. Store results
+4. Handle errors
+
+### UI Updates
+1. Load data
+2. Update state
+3. Render changes
+4. Handle errors
+
+## Known Challenges
+
+### Schedule Logic
+1. Week transitions
+2. Month boundaries
+3. Room conflicts
+4. Availability changes
+
+### Data Management
+1. JSON limitations
+2. Data validation
+3. Error handling
+4. State management
+
+### UI/UX
+1. Mobile support
+2. Performance
+3. Error display
+4. User feedback 
